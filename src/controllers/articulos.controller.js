@@ -1,5 +1,5 @@
 //import { json } from "express";
-import { getConnection } from "../database/connection";
+import { getConnection } from "../database/connection.js";
 
 export const getArticulos = async (req, res) => {
     const pool = await getConnection();
